@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>EcoEmissionData- Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      <!-- <h1 class="logo me-auto"><a href="index.html">Arsha</a></h1> -->
+      <div class="col-lg-2 col-md-4 col-6 d-flex me-auto">
+        <img style="height: 85px;" src="assets/img/logo.png" class="img-fluid" alt="">
+      </div>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html">About</a></li>
+          <li><a class="nav-link scrollto" href="index.html">Team</a></li>
+         
+          <li><a style="
+            color: white;
+            background: #1451c6;
+        " class="getstarted scrollto" href="data_submission.html">Data Submission</a></li>
+          <li><a style="
+            color: white;
+            background: #1451c6;
+        " class="getstarted scrollto" href="user_form.html">Get Started</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <br><br><br><br><br><br>
+          <h1>Tracking Emissions, Building a Better Future</h1>
+          <h2 style="color: white;">We are a dedicated team harnessing data for a sustainable world, working on our Emission Project to drive positive change through informed action</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <div class="container px-5 my-5">
+    <h1 style="font-size: 38px; text-align: center;">Company Profile Creation</h2><br><br>
+    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+        <div class="mb-3">
+            <label class="form-label" for="companyName">Company Name</label>
+            <input class="form-control" id="companyName" type="text" placeholder="Company Name" data-sb-validations="required" />
+            <div class="invalid-feedback" data-sb-feedback="companyName:required">Company Name is required.</div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="location">Location</label>
+            <input class="form-control" id="location" type="text" placeholder="Location" data-sb-validations="required" />
+            <div class="invalid-feedback" data-sb-feedback="location:required">Location is required.</div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="contactEmail">Contact_email</label>
+            <input class="form-control" id="contactEmail" type="email" placeholder="Contact_email" data-sb-validations="required,email" />
+            <div class="invalid-feedback" data-sb-feedback="contactEmail:required">Contact_email is required.</div>
+            <div class="invalid-feedback" data-sb-feedback="contactEmail:email">Contact_email Email is not valid.</div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="contactPhone">Contact_phone</label>
+            <input class="form-control" id="contactPhone" type="text" placeholder="Contact_phone" data-sb-validations="required" />
+            <div class="invalid-feedback" data-sb-feedback="contactPhone:required">Contact_phone is required.</div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="industryOfCompany">Industry Of Company</label>
+            <select class="form-select" id="industryOfCompany" aria-label="Industry Of Company">
+                <option value="None">None</option>
+                <option value="Agriculture">Agriculture</option>
+                <option value="Aquaculture">Aquaculture</option>
+                <option value="Forestry and Logging">Forestry and Logging</option>
+                <option value="Fishing">Fishing</option>
+                <option value="Hunting and Trapping">Hunting and Trapping</option>
+                <option value="Agriculture">Agriculture</option>
+                <option value="Forestry and Fishing Support Services">Forestry and Fishing Support Services</option>
+                <option value="Coal Mining">Coal Mining</option>
+                <option value="Oil and Gas Extraction">Oil and Gas Extraction</option>
+                <option value="Metal Ore Mining">Metal Ore Mining</option>
+                <option value="Non-Metallic Mineral Mining and Quarrying">Non-Metallic Mineral Mining and Quarrying</option>
+                <option value="Exploration and Other Mining Support Services">Exploration and Other Mining Support Services</option>
+                <option value="Food Product Manufacturing">Food Product Manufacturing</option>
+                <option value="Beverage and Tobacco Product Manufacturing">Beverage and Tobacco Product Manufacturing</option>
+                <option value="Textile">Textile</option>
+                <option value="Leather">Leather</option>
+                <option value="Clothing and Footwear Manufacturing">Clothing and Footwear Manufacturing</option>
+                <option value="Wood Product Manufacturing">Wood Product Manufacturing</option>
+                <option value="Pulp">Pulp</option>
+                <option value="Paper and Converted Paper Product Manufacturing">Paper and Converted Paper Product Manufacturing</option>
+                <option value="Printing (including the Reproduction of Recorded Media)">Printing (including the Reproduction of Recorded Media)</option>
+                <option value="Petroleum and Coal Product Manufacturing">Petroleum and Coal Product Manufacturing</option>
+                <option value="Basic Chemical and Chemical Product Manufacturing">Basic Chemical and Chemical Product Manufacturing</option>
+                <option value="Polymer Product and Rubber Product Manufacturing">Polymer Product and Rubber Product Manufacturing</option>
+                <option value="Non-Metallic Mineral Product Manufacturing">Non-Metallic Mineral Product Manufacturing</option>
+                <option value="Primary Metal and Metal Product Manufacturing">Primary Metal and Metal Product Manufacturing</option>
+                <option value="Fabricated Metal Product Manufacturing">Fabricated Metal Product Manufacturing</option>
+                <option value="Transport Equipment Manufacturing">Transport Equipment Manufacturing</option>
+                <option value="Machinery and Equipment Manufacturing">Machinery and Equipment Manufacturing</option>
+                <option value="Furniture and Other Manufacturing">Furniture and Other Manufacturing</option>
+                <option value="Electricity Supply">Electricity Supply</option>
+                <option value="Gas Supply">Gas Supply</option>
+                <option value="Water Supply">Water Supply</option>
+                <option value="Sewerage and Drainage Services">Sewerage and Drainage Services</option>
+                <option value="Waste Collection">Waste Collection</option>
+                <option value="Treatment and Disposal Services">Treatment and Disposal Services</option>
+                <option value="Building Construction">Building Construction</option>
+                <option value="Heavy and Civil Engineering Construction">Heavy and Civil Engineering Construction</option>
+                <option value="Construction Services">Construction Services</option>
+                <option value="Basic Material Wholesaling">Basic Material Wholesaling</option>
+                <option value="Machinery and Equipment Wholesaling">Machinery and Equipment Wholesaling</option>
+                <option value="Motor Vehicle and Motor Vehicle Parts Wholesaling">Motor Vehicle and Motor Vehicle Parts Wholesaling</option>
+                <option value="Grocery">Grocery</option>
+                <option value="Liquor and Tobacco Product Wholesaling">Liquor and Tobacco Product Wholesaling</option>
+                <option value="Other Goods Wholesaling">Other Goods Wholesaling</option>
+                <option value="Motor Vehicle and Motor Vehicle Parts Retailing">Motor Vehicle and Motor Vehicle Parts Retailing</option>
+                <option value="Fuel Retailing">Fuel Retailing</option>
+                <option value="Food Retailing">Food Retailing</option>
+                <option value="Other Store-Based Retailing">Other Store-Based Retailing</option>
+                <option value="Non-Store Retailing and Retail Commission-Based Buying and/or Selling">Non-Store Retailing and Retail Commission-Based Buying and/or Selling</option>
+                <option value="Accommodation">Accommodation</option>
+                <option value="Food and Beverage Services">Food and Beverage Services</option>
+                <option value="Road Transport">Road Transport</option>
+                <option value="Rail Transport">Rail Transport</option>
+                <option value="Water Transport">Water Transport</option>
+                <option value="Air and Space Transport">Air and Space Transport</option>
+                <option value="Other Transport">Other Transport</option>
+                <option value="Postal and Courier Pick-up and Delivery Services">Postal and Courier Pick-up and Delivery Services</option>
+                <option value="Transport Support Services">Transport Support Services</option>
+                <option value="Warehousing and Storage Services">Warehousing and Storage Services</option>
+                <option value="Publishing (except Internet and Music Publishing)">Publishing (except Internet and Music Publishing)</option>
+                <option value="Motion Picture and Sound Recording Activities">Motion Picture and Sound Recording Activities</option>
+                <option value="Broadcasting (except Internet)">Broadcasting (except Internet)</option>
+                <option value="Internet Publishing and Broadcasting">Internet Publishing and Broadcasting</option>
+                <option value="Telecommunications Services">Telecommunications Services</option>
+                <option value="Internet Service Providers">Internet Service Providers</option>
+                <option value="Web Search Portals and Data Processing Services">Web Search Portals and Data Processing Services</option>
+                <option value="Library and Other Information Services">Library and Other Information Services</option>
+                <option value="Finance">Finance</option>
+                <option value="Insurance and Superannuation Funds">Insurance and Superannuation Funds</option>
+                <option value="Auxiliary Finance and Insurance Services">Auxiliary Finance and Insurance Services</option>
+                <option value="Rental and Hiring Services (except Real Estate)">Rental and Hiring Services (except Real Estate)</option>
+                <option value="Property Operators and Real Estate Services">Property Operators and Real Estate Services</option>
+                <option value="Professional">Professional</option>
+                <option value="Scientific and Technical Services (Except Computer System Design and Related Services)">Scientific and Technical Services (Except Computer System Design and Related Services)</option>
+                <option value="Computer System Design and Related Services">Computer System Design and Related Services</option>
+                <option value="Administrative Services">Administrative Services</option>
+                <option value="Building Cleaning">Building Cleaning</option>
+                <option value="Pest Control and Other Support Services">Pest Control and Other Support Services</option>
+                <option value="Public Administration">Public Administration</option>
+                <option value="Defence">Defence</option>
+                <option value="Public Order">Public Order</option>
+                <option value="Safety and Regulatory Services">Safety and Regulatory Services</option>
+                <option value="Preschool and School Education">Preschool and School Education</option>
+                <option value="Tertiary Education">Tertiary Education</option>
+                <option value="Adult">Adult</option>
+                <option value="Community and Other Education">Community and Other Education</option>
+                <option value="Hospitals">Hospitals</option>
+                <option value="Medical and Other Health Care Services">Medical and Other Health Care Services</option>
+                <option value="Residential Care Services">Residential Care Services</option>
+                <option value="Social Assistance Services">Social Assistance Services</option>
+                <option value="Heritage Activities">Heritage Activities</option>
+                <option value="Creative and Performing Arts Activities">Creative and Performing Arts Activities</option>
+                <option value="Sports and Recreation Activities">Sports and Recreation Activities</option>
+                <option value="Gambling Activities">Gambling Activities</option>
+                <option value="Repair and Maintenance">Repair and Maintenance</option>
+                <option value="Personal and Other Services">Personal and Other Services</option>
+                <option value="No ANZSIC code reported">No ANZSIC code reported</option>
+                <option value="Totals of withheld items.">Totals of withheld items.</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="comapnyWebsite">Comapny Website</label>
+            <input class="form-control" id="comapnyWebsite" type="text" placeholder="Comapny Website" data-sb-validations="required" />
+            <div class="invalid-feedback" data-sb-feedback="comapnyWebsite:required">Comapny Website is required.</div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="registrationNumber">Registration Number</label>
+            <input class="form-control" id="registrationNumber" type="text" placeholder="Registration Number" data-sb-validations="required" />
+            <div class="invalid-feedback" data-sb-feedback="registrationNumber:required">Registration Number is required.</div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="foundingYear">Founding year</label>
+            <input class="form-control" id="foundingYear" type="text" placeholder="Founding year" data-sb-validations="required" />
+            <div class="invalid-feedback" data-sb-feedback="foundingYear:required">Founding year is required.</div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="sizeOfComapnyNumberOfEmployees">Size Of Comapny (Number Of Employees)</label>
+            <input class="form-control" id="sizeOfComapnyNumberOfEmployees" type="text" placeholder="Size Of Comapny (Number Of Employees)" data-sb-validations="required" />
+            <div class="invalid-feedback" data-sb-feedback="sizeOfComapnyNumberOfEmployees:required">Size Of Comapny (Number Of Employees) is required.</div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="ownershipType">Ownership Type</label>
+            <select class="form-select" id="ownershipType" aria-label="Ownership Type">
+                <option value="None">None</option>
+                <option value="Publicly Traded">Publicly Traded</option>
+                <option value="Private">Private</option>
+                <option value="Joint Venture">Joint Venture</option>
+                <option value="State-Owned">State-Owned</option>
+                <option value="Cooperative">Cooperative</option>
+                <option value="Partnership">Partnership</option>
+                <option value="Sole Proprietorship">Sole Proprietorship</option>
+                <option value="Franchise">Franchise</option>
+                <option value="Non-Profit">Non-Profit</option>
+                <option value="International Consortium">International Consortium</option>
+                <option value="Employee-Owned">Employee-Owned</option>
+                <option value="Multinational Corporation">Multinational Corporation</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="headquartersLocation">Headquarters Location</label>
+            <input class="form-control" id="headquartersLocation" type="text" placeholder="Headquarters Location" data-sb-validations="required" />
+            <div class="invalid-feedback" data-sb-feedback="headquartersLocation:required">Headquarters Location is required.</div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="parentCompanyIfAvalible">Parent Company (If Avalible)</label>
+            <input class="form-control" id="parentCompanyIfAvalible" type="text" placeholder="Parent Company (If Avalible)" data-sb-validations="" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="socialMediaLinks">Social Media Links</label>
+            <input class="form-control" id="socialMediaLinks" type="text" placeholder="Social Media Links" data-sb-validations="required" />
+            <div class="invalid-feedback" data-sb-feedback="socialMediaLinks:required">Social Media Links is required.</div>
+        </div>
+        <div class="d-none" id="submitSuccessMessage">
+            <div class="text-center mb-3">
+                <div class="fw-bolder">Form submission successful!</div>
+               
+            </div>
+        </div>
+        <div class="d-none" id="submitErrorMessage">
+            <div class="text-center text-danger mb-3">Error sending message!</div>
+        </div>
+        <div class="d-grid">
+            <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Stay tuned for exciting updates on our Emission Project as we work towards a greener future together!</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>EcoEmissionData</h3>
+            <p>
+              88 Wakefield St <br>
+              Adelaide SA,5000<br>
+              Australia <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> ecoemissiondata@example.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+            </ul>
+          </div>
+
+         
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>EcoEmissionData</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+        Designed by <a href="#">EcoEmissionData</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
