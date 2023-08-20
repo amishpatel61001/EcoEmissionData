@@ -1,6 +1,6 @@
-Thanks for downloading this template!
+Thanks for coming to this project!
 
-Template Name: Arsha
-Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-Author: BootstrapMade.com
+Project Name: EcoEmissionData
+Credit: Govhack
+Author: Amish Patel
 License: https://bootstrapmade.com/license/
